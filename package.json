@@ -1,0 +1,28 @@
+{
+  "name": "@sensible-ts/prettier",
+  "version": "0.0.0",
+  "description": "A sensible Prettier config",
+  "repository": "sensible-ts/prettier",
+  "license": "MIT",
+  "homepage": "https://github.com/sensible-ts/prettier",
+  "main": "index.json",
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write .",
+    "prepack": "npm run check"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "devDependencies": {
+    "@sensible-ts/semantic-release": "^1.0.1",
+    "prettier": "^2.8.3"
+  },
+  "prettier": "./index.json",
+  "release": {
+    "extends": "@sensible-ts/semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
