@@ -2,7 +2,10 @@
   "name": "@sensible-ts/prettier",
   "version": "0.0.0",
   "description": "A sensible Prettier config",
-  "repository": "sensible-ts/prettier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sensible-ts/prettier.git"
+  },
   "license": "MIT",
   "homepage": "https://github.com/sensible-ts/prettier",
   "main": "index.json",
