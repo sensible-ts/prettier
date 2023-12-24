@@ -18,7 +18,7 @@
     "prettier": "^3.1.1"
   },
   "devDependencies": {
-    "@sensible-ts/semantic-release": "^1.0.1",
+    "@sensible-ts/semantic-release": "^2.0.0",
     "prettier": "^3.1.1"
   },
   "prettier": "./index.json",
